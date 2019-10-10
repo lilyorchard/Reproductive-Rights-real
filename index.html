@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script> 
+    $(function(){
+      $("#includedContent").load("test.html"); 
+    });
+    </script> 
+  <title>Info CentHER</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel = "stylesheet" href = "style.css"> 
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+  <title>Bootstrap Example</title>
+  <link rel = "icon" type = "image/png" href="https://cdn.pixabay.com/photo/2016/04/20/15/36/woman-1341376_640.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+  
+}
+
+/* Six columns side by side */
+.column {
+  width: 16.66%;
+  padding: 5px;
+  display: inline-block;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+    
+    
+    
+    
+/*  Claire's CSS */
+    
+    h1 {
+      color: pink;
+      font-size: 80px;
+    }
+    
+    #Mission,h1, h2 {
+      font-family: "212 Queenie Sans";
+      font-size: 80px;
+    }
+    
+    h3 {
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 25px;
+      width: 1000px;
+    }
+    
+    .w3-top {
+      
+    }
+
+    #location {
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 24px;
+      width: 1000px;
+
+    }
+    
+    #yellow {
+      color: #0091CC;
+    }
+    
+    #pink {
+      color: pink;
+    }
+    
+    #teal {
+      color: #B3364C;
+    }
+      
+    #blue {
+      background-color:#0091CC;  
+    }
+      
+    .w3-top {
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 24px;  
+    }
+      
+    #color {
+      color: #FFF761;
+    }
+      
+    #font, h4 {
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 24px;
+    }
+      
+      #blue-who {
+        color: #FF6682;
+      }
+      
+      #contact {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 24px;  
+      }
+      
+      #stats {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 24px; 
+      }
+      
+      #size {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 24px; 
+        padding: 15px;
+      }
+      
+    .w3-theme-l5{
+      padding: 15px;
+    }
+    
+    #font {
+      height: 270px;
+    }
+  
+    .card-title {
+      font-family: 'Cedarville Cursive', cursive;
+    }
+    
+    .w3-top {
+      font-size: 30px;
+    }
+    
+    #navDemo {
+      font-size: 30px;
+    }
+    
+    #bigger {
+      font-size: 35px;
+    }
+    
+    #smaller {
+      font-size: 25px;
+      width: 700px;
+    }
+    
+    
+
+</style>
+</head>
+  <body id="myPage">
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button">Link 4</a>
+  <a href="#" class="w3-bar-item w3-button">Link 5</a>
+</nav>
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button" id = "blue"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <a href="#Mission" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Mission</a>
+  <a href="#stats" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Statistics</a>
+  <a href="#location" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Locations</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Meet the Team</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Resources <i class="fa fa-caret-down"></i></button>
+  <div class="w3-dropdown-content w3-card-4 w3-bar-block" id = "size">
+      <a href="https://www.plannedparenthood.org">Planned Parenthood</a><br>
+      <a href="https://www.thesexed.com">Sexual Education</a><br>
+      <a href="https://roo.plannedparenthood.org/onboarding/step-4">Anonymous Messenger</a><br>
+      <a href="https://www.usa.gov/register-to-vote">Register to Vote</a><br>
+      <a href="https://www.guttmacher.org/state-policy">State Policy Updates</a>
+  
+    </div>
+  </div>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#Mission" class="w3-bar-item w3-button">Mission</a>
+    <a href="#stats" class="w3-bar-item w3-button">Statistics</a>
+    <a href="#location" class="w3-bar-item w3-button">Locations</a>
+    <a href="#contact" class="w3-bar-item w3-button">Meet the Team</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+    
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src = "https://cdn.glitch.com/cf587f71-e154-47e7-bda8-10c21047feb8%2FinfoCentHERLogo.png?v=1560456839956" alt="boat" style="width:100%;min-height:350px;max-height:600px;" class = "legend">
+
+</div>
+    
+<!--     <div id="includedContent"></div> MAP EMBED DID NOT WORK-->
+    
+    
+<!-- Mission Container --> 
+<div class="w3-container w3-padding-64 w3-center" id="Mission">
+ <div class="boxed"><h1>
+   Our Mission
+   </h1>
+   <center><h3 id="navDemo">Here at <b><u>Info CentHER</u></b>, we want to help you make the best decision for you and your family. Regardless of your political or religious views, our goal is to help you make an educated decision. While we hope to provide an expansive collection of data to aid you, we are not medical professionals. Please speak with your physician before making any medical decisons.</h3></center><br>
+</div>
+    </div>
+    
+    
+<center>
+<div class="w3-container w3-padding-100 w3-theme-l5" id = "stats">  
+  <h2 style="text-align:center" id = "blue-who">Statistics</h2>
+  <center><h3>
+    Click through the different colors below the slideshow to view some statistics about issues concerning women's health care.
+  </h3></center><br>
+
+  
+  <div class="row" class = "slideshow">
+
+    <div class="column">
+      <img class="demo cursor" src="https://cdn.glitch.com/cf587f71-e154-47e7-bda8-10c21047feb8%2F1.png?v=1560460010695" style="width:100%" onclick="currentSlide(1)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://cdn.glitch.com/cf587f71-e154-47e7-bda8-10c21047feb8%2F2.png?v=1560462112138" style="width:100%" onclick="currentSlide(2)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://cdn.glitch.com/cf587f71-e154-47e7-bda8-10c21047feb8%2F3.png?v=1560462138719" style="width:100%" onclick="currentSlide(3)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://cdn.glitch.com/cf587f71-e154-47e7-bda8-10c21047feb8%2F4.png?v=1560462241407" style="width:100%" onclick="currentSlide(4)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://cdn.glitch.com/cf587f71-e154-47e7-bda8-10c21047feb8%2F5.png?v=1560462270772" style="width:100%" onclick="currentSlide(5)">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="https://cdn.glitch.com/cf587f71-e154-47e7-bda8-10c21047feb8%2F6.png?v=1560462360601" style="width:100%" onclick="currentSlide(6)">
+    </div>
+   <div class="column">
+      <img class="demo cursor" src="https://cdn.glitch.com/cf587f71-e154-47e7-bda8-10c21047feb8%2F7.png?v=1560462383639" style="width:100%" onclick="currentSlide(7)">
+    </div>
+
+<div class="column">
+      <img class="demo cursor" src="https://cdn.glitch.com/cf587f71-e154-47e7-bda8-10c21047feb8%2F8.png?v=1560462457087" style="width:100%" onclick="currentSlide(8)">
+    </div>
+    
+<div class="column">
+      <img class="demo cursor" src="https://cdn.glitch.com/cf587f71-e154-47e7-bda8-10c21047feb8%2F9.png?v=1560462489737" style="width:100%" onclick="currentSlide(9)">
+    </div>
+    
+<div class="column">
+      <img class="demo cursor" src="https://cdn.glitch.com/cf587f71-e154-47e7-bda8-10c21047feb8%2F10.png?v=1560462517664" style="width:100%" onclick="currentSlide(10)">
+    </div>
+    
+  </div><br>
+  <div class="mySlides">
+    <div class="numbertext">1 / 10</div>
+    <img src="https://cdn.glitch.com/cf587f71-e154-47e7-bda8-10c21047feb8%2FSLide%201.png?v=1560455188111" style="width:85.7%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 10</div>
+    <img src="https://cdn.glitch.com/cf587f71-e154-47e7-bda8-10c21047feb8%2FSLide%202.png?v=1560455275539" style="width:85.7%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 10</div>
+    <img src="https://cdn.glitch.com/cf587f71-e154-47e7-bda8-10c21047feb8%2FSlide%203.png?v=1560455333977" style="width:85.7%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 10</div>
+    <img src="https://cdn.glitch.com/cf587f71-e154-47e7-bda8-10c21047feb8%2FSlide%204.png?v=1560455378323" style="width:85.7%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 10</div>
+    <img src="https://cdn.glitch.com/cf587f71-e154-47e7-bda8-10c21047feb8%2FSlide%205.png?v=1560455431280" style="width:85.7%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 10</div>
+    <img src="https://cdn.glitch.com/cf587f71-e154-47e7-bda8-10c21047feb8%2FSlide%206.png?v=1560455480622" style="width:85.7%">
+  </div>
+    
+   
+   <div class="mySlides">
+    <div class="numbertext">7 / 10</div>
+    <img src="https://cdn.glitch.com/cf587f71-e154-47e7-bda8-10c21047feb8%2Fslide%207.png?v=1560455527996" style="width:85.7%">
+  </div>
+  
+    <div class="mySlides">
+    <div class="numbertext">8 / 10</div>
+    <img src="https://cdn.glitch.com/cf587f71-e154-47e7-bda8-10c21047feb8%2FSlide%208.png?v=1560455665230" style="width:85.7%">
+  </div>
+  
+    <div class="mySlides">
+    <div class="numbertext">9 / 10</div>
+    <img src="https://cdn.glitch.com/cf587f71-e154-47e7-bda8-10c21047feb8%2FSlide%209.png?v=1560455693119" style="width:85.7%">
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">10 / 10</div>
+    <img src="https://cdn.glitch.com/cf587f71-e154-47e7-bda8-10c21047feb8%2FSlide%2010.png?v=1560455729827" style="width:85.7%">
+  </div> 
+  <br><br><br>
+ </center>
+  
+
+
+</div>
+  
+  
+  
+  
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+
+</script>
+<!--     </div> -->
+<!-- Container 
+<div class="w3-container" style="position:relative">
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+  style="position:absolute;top:-28px;right:24px">+</a>
+</div>-->
+
+<!-- Pricing Row -->
+<center><div class="w3-row-padding w3-center w3-padding-64" id="location">
+    <h2 id = "pink">Women's Health Care Clinics Near You</h2>
+  <a href="test.html" id="navDemo">Check out up-to-date locations for health care clinics for women!</a><br>
+  
+</div></center> 
+    
+<div class="w3-container w3-padding-64 w3-theme-l5">
+
+<center>
+   <h2 id = "teal">Additional Resources</h2>
+      <h3 id = "bigger"> 
+      <a href="https://www.plannedparenthood.org">Planned Parenthood</a><br>
+        <p id = "smaller">Planned Parenthood is an organization committed to to providing comprehensive reproductive and complementary health care services.</p><br>
+      <a href="https://www.thesexed.com">Sexual Education</a><br>
+        <p id = "smaller">The Sex Ed is a podcast dedicated to promoting conversations about sexual wellness from a holistic perspective.</p><br>
+      <a href="https://roo.plannedparenthood.org/onboarding/step-4">Anonymous Messenger</a><br>
+        <p id = "smaller">The Roo is an anonymous messenger site provided by Planned Parenthood to help those who are in need of support or are scared to ask questions</p><br>
+      <a href="https://www.usa.gov/register-to-vote">Register to Vote</a><br>
+        <p id = "smaller">If you are 17 and a half or older, register to vote! Don't be caught off guard and unregistered when voting season approaches. Your voice matters. </p><br>
+      <a href="https://www.guttmacher.org/state-policy">State Policy Updates</a>
+        <p id = "smaller">With bills being passed every other day, it's important that you stay informed on which laws are currentand which are outdated. Stay informed and well educated!</p><br>
+  </h3>
+</center>
+</div>
+
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64" id="contact">
+  <div class="w3-row">
+    <center><h2 id = "yellow">
+    Meet the Team:
+    </h2></center><br>
+    <div class="row text-center">
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://cdn.glitch.com/cf587f71-e154-47e7-bda8-10c21047feb8%2FProf.jpg?v=1560464349212" height = "275px" width = "225px" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Lily Orchard</h4>
+            <p class="card-text">Lily is a senior at John Burroughs High School. Lily believes reproductive health touches every facet of our world today and education is the first step to driving real change.</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img src="https://i.imgur.com/aW17zVL.jpg" alt="Commercial Photography" height = "275px" width = "225px">
+          <div class="card-body">
+            <h4 class="card-title">Carly Anderson</h4>
+            <p class="card-text">Carly is a senior at Parkway West High School. Carly believes that there is a scarcity of unbiased educational resources and wants to help initiate a change in that for more effective discussions.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://cdn.glitch.com/cf587f71-e154-47e7-bda8-10c21047feb8%2FScreen%20Shot%202019-06-13%20at%201.41.53%20PM.png?v=1560459504504" height="275px" width="225px">
+          <div class="card-body">
+            <h4 class="card-title">Minnie Durham</h4>
+            <p class="card-text">Minnie is going to be a somphmore next year at Maplewood Richmond Heights High School. Minnie believes that women's health is something that is important in the world.  </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://cdn.glitch.com/cf587f71-e154-47e7-bda8-10c21047feb8%2FIMG_8952.jpg?v=1560465107990" height="275" width="225">
+          <div class="card-body">
+            <h4 class="card-title">Claire Ruttencutter</h4>
+            <p class="card-text">Claire is currently a senior at Nerinx Hall High School. She believes that it is extremely important to provide information on women's health care issues to all.</p>
+          </div>
+        </div>
+        <br><br><br>
+      </div>
+
+
+  </div>
+</div>
+    </div>
+  
+<!-- Footer -->
+<!-- <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center w3-opacity" id = "font"> -->
+  <center><footer class="w3-container w3-padding-64 w3-theme-d1" id = "font">
+  
+  <h4 id="navDemo">Follow Us</h4>
+  <a class="w3-button w3-large" id = "color" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large" id = "color" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large" id = "color" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large" id = "color" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-hide-small" id = "color" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p id="navDemo">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right" id="navDemo">
+    <span class="w3-text w3-padding w3-hide-small">Go To Top</span>
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+    </center>
+
+<script>
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+    <div id = "map" class = "leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" tabindex = "0" style = "position: relative;"></div>
+<script src = "script.js"></script>
+  <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</body>
+    
+</html>
